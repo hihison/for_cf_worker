@@ -93,8 +93,13 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <a href = test.html><script type="text/javascript"><div class="modal-body" id="result">No result</div></script></a>
-        <h1>the : <script>docWrite(result)</script>aaaaa</h1>
+            <img id='result' 
+            src="https://api.qrserver.com/v1/create-qr-code/?data=HelloWorld&amp;size=100x100" 
+            alt="" 
+            title="HELLO" 
+            width="50" 
+            height="50" />
+        
         <div class="modal-body" id="result">No result</div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary" onclick='copyurl("result")' data-toggle="popover" data-placement="bottom" data-content="Copied!">Copy</button>
