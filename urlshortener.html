@@ -96,11 +96,10 @@
         
         
         <div class="modal-body" id="result">No result</div>     
-        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=+result+ " id="imageBox"/>
-        
+
         <script type="text/javascript">
-        var total = 4;
-        document.getElementById('result').innerHTML = '<img src="img/apple_' + total + '.png" id="imageBox"/>';
+        
+        document.getElementById('result').innerHTML = '<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=' + result + '" id="imageBox"/>';
         </script>
         
         <div class="modal-footer">
